@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_corner_curve_white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/bl_card"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="Dialog Title" />
+
+    <!-- Message -->
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/bl_card"
+        android:padding="16dp"
+        android:text="Dialog Message"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:onClick="onLinkClick" />
+
+    <!-- Message -->
+    <TextView
+        android:id="@+id/dialog_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/bl_card"
+        android:padding="16dp"
+        android:text="Dialog Link/Price"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:onClick="onLinkClick" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/dialog_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:background="@color/b_coral"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:gravity="center" />
+
+</LinearLayout>
